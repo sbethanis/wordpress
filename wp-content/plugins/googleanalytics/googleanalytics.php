@@ -18,7 +18,7 @@ if (!defined('WP_PLUGIN_DIR'))
       define('WP_PLUGIN_DIR', WP_CONTENT_DIR.'/plugins');
 
 function activate_googleanalytics() {
-  add_option('web_property_id', 'UA-0000000-0');
+  add_option('web_property_id', 'UA-76033202-1');
 }
 
 function deactive_googleanalytics() {
